@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MapActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#fff"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:textColor="#000"
+            android:onClick="shutdowMap"
+            android:text="〈"/>
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:textColor="#000"
+            android:text="X " />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:background="@mipmap/top_02_icon"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="发起位置"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:gravity="center"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="反馈"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:paddingRight="20dp"
+            android:textColor="#27dae4"
+            android:lineHeight="40dp"
+            android:layout_height="40dp"/>
+    </LinearLayout>
+    <WebView
+        android:layout_width="match_parent"
+        android:id="@+id/wv_map"
+        android:layout_height="match_parent">
+
+    </WebView>
+
+</LinearLayout>

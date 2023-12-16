@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">日在校园</string>
+    <string name="log">
+        \n\n\n特别说明:\n
+        \t本软件仅供内部使用\n
+        不收费,不担责,请勿传播\n
+        请严格按照默认格式填写,否则软件将崩溃\n
+        本人事多,懒得修复\n
+        如果出现问题请直接清除软件数据\n
+        出现任何问题,作者不承担任何法律责任\n
+        作者:@dancun\n
+        使用本软件就代表你同意上述条件.\n
+        更新日志:\n
+        v1.1 修复请假理由的点击范围太小\n
+        v1.2 修复时间日期格式\n
+        v1.3 同步进今日校园更新,替换部分图片为布局\n
+        v1.4 修复月份相差一个月,修改橙色和绿色banner\n
+        v1.5 同步二维码(假)功能\n
+        v2.0 添加附件功能,整合一到三级审核\n
+        没有二级审核,三级审核的请不要填写二、三级审核\n
+        一级审核只要填写辅导员名字,二级、三级按照你们学校格式\n
+        v2.1 修复时间问题,添加保存功能,更加接近今日校园的界面\n
+        v2.2 添加历史请假记录,过期自动销假,大大缩减安装包大小\n
+        v2.3 同步今日校园更新,添加地图功能,添加销假功能,细节更新自行体会
+
+    </string>
+    <string name="fuck">
+        ごめんなさい\n
+        ┘\n
+        ┘\n
+        ┘\n
+        ┘\n
+        ┘\n
+        ┘\n
+        ┘\n
+        ┘\n
+        ┘\n
+        ┘\n
+        ┘\n
+        ┘\n
+        ┘\n
+        ┘\n
+        ┘\n
+        ┘\n
+        さよなら
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

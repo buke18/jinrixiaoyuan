@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.LeaveDetail">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#fff"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="50dp"
+            android:scaleType="fitXY"
+            android:layout_height="40dp"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:textColor="#000"
+            android:text="〈"/>
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:textColor="#000"
+            android:text="X " />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:background="@mipmap/top_02_icon"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="辅导猫"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:gravity="center"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="反馈"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:paddingRight="20dp"
+            android:textColor="#27dae4"
+            android:lineHeight="40dp"
+            android:layout_height="40dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="#fe9901"
+        android:gravity="center">
+        <TextView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:background="@mipmap/icon_what"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="为何不能请假?"
+            android:textColor="#fff"
+            android:gravity="center"/>
+    </LinearLayout>
+
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/lv_detail"/>
+
+
+
+<!--    <ListView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/lv_leave"/>-->
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#4482f1"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:onClick="leave"
+        android:text="我要请假"/>
+
+</LinearLayout>
